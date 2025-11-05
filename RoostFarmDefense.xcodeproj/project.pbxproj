@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B627FD2EBB70FE00DF7102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B627FA2EBB70FE00DF7102 /* Assets.xcassets */; };
+		72B627FE2EBB70FE00DF7102 /* RoostFarmDefenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627FB2EBB70FE00DF7102 /* RoostFarmDefenseApp.swift */; };
+		72B628092EBB711C00DF7102 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B628002EBB711C00DF7102 /* View+Extensions.swift */; };
+		72B6280A2EBB711C00DF7102 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B628012EBB711C00DF7102 /* Color+Extensions.swift */; };
+		72B6280B2EBB711C00DF7102 /* RFLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B628062EBB711C00DF7102 /* RFLaunchView.swift */; };
+		72B6280C2EBB711C00DF7102 /* RFHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B628042EBB711C00DF7102 /* RFHomeWebView.swift */; };
+		72B6280D2EBB711C00DF7102 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B628022EBB711C00DF7102 /* ShapeStyle+Extensions.swift */; };
+		8817E70BC5F4ECA3D7BDE7E0 /* Pods_RoostFarmDefense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF5BBCEAA92DB32D2E1EE18 /* Pods_RoostFarmDefense.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CF5BBCEAA92DB32D2E1EE18 /* Pods_RoostFarmDefense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoostFarmDefense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7075BAD21D023984F9BD1C73 /* Pods-RoostFarmDefense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoostFarmDefense.release.xcconfig"; path = "Target Support Files/Pods-RoostFarmDefense/Pods-RoostFarmDefense.release.xcconfig"; sourceTree = "<group>"; };
+		72B627EB2EBB70ED00DF7102 /* RoostFarmDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoostFarmDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B627FA2EBB70FE00DF7102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B627FB2EBB70FE00DF7102 /* RoostFarmDefenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostFarmDefenseApp.swift; sourceTree = "<group>"; };
+		72B628002EBB711C00DF7102 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72B628012EBB711C00DF7102 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72B628022EBB711C00DF7102 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72B628042EBB711C00DF7102 /* RFHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFHomeWebView.swift; sourceTree = "<group>"; };
+		72B628062EBB711C00DF7102 /* RFLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFLaunchView.swift; sourceTree = "<group>"; };
+		72B6280E2EBB723C00DF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A0395402A2842DABB41AEC90 /* Pods-RoostFarmDefense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoostFarmDefense.debug.xcconfig"; path = "Target Support Files/Pods-RoostFarmDefense/Pods-RoostFarmDefense.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B627E82EBB70ED00DF7102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8817E70BC5F4ECA3D7BDE7E0 /* Pods_RoostFarmDefense.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B627E22EBB70ED00DF7102 = {
+			isa = PBXGroup;
+			children = (
+				72B627FC2EBB70FE00DF7102 /* RoostFarmDefense */,
+				72B627EC2EBB70ED00DF7102 /* Products */,
+				C16897E60D8CB8226105A06D /* Pods */,
+				F98C72611EDC1C07E924E171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72B627EC2EBB70ED00DF7102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B627EB2EBB70ED00DF7102 /* RoostFarmDefense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B627FC2EBB70FE00DF7102 /* RoostFarmDefense */ = {
+			isa = PBXGroup;
+			children = (
+				72B6280E2EBB723C00DF7102 /* Info.plist */,
+				72B628032EBB711C00DF7102 /* Extensions */,
+				72B628082EBB711C00DF7102 /* Screens */,
+				72B627FF2EBB710000DF7102 /* App */,
+				72B627FA2EBB70FE00DF7102 /* Assets.xcassets */,
+			);
+			path = RoostFarmDefense;
+			sourceTree = "<group>";
+		};
+		72B627FF2EBB710000DF7102 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72B627FB2EBB70FE00DF7102 /* RoostFarmDefenseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B628032EBB711C00DF7102 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72B628002EBB711C00DF7102 /* View+Extensions.swift */,
+				72B628012EBB711C00DF7102 /* Color+Extensions.swift */,
+				72B628022EBB711C00DF7102 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72B628052EBB711C00DF7102 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B628042EBB711C00DF7102 /* RFHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72B628072EBB711C00DF7102 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B628062EBB711C00DF7102 /* RFLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72B628082EBB711C00DF7102 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72B628052EBB711C00DF7102 /* HomeWebScreen */,
+				72B628072EBB711C00DF7102 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C16897E60D8CB8226105A06D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0395402A2842DABB41AEC90 /* Pods-RoostFarmDefense.debug.xcconfig */,
+				7075BAD21D023984F9BD1C73 /* Pods-RoostFarmDefense.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F98C72611EDC1C07E924E171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF5BBCEAA92DB32D2E1EE18 /* Pods_RoostFarmDefense.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B627EA2EBB70ED00DF7102 /* RoostFarmDefense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B627F72EBB70EF00DF7102 /* Build configuration list for PBXNativeTarget "RoostFarmDefense" */;
+			buildPhases = (
+				5FFF5D5A72C5784BFA98E2DD /* [CP] Check Pods Manifest.lock */,
+				72B627E72EBB70ED00DF7102 /* Sources */,
+				72B627E82EBB70ED00DF7102 /* Frameworks */,
+				72B627E92EBB70ED00DF7102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoostFarmDefense;
+			productName = RoostFarmDefense;
+			productReference = 72B627EB2EBB70ED00DF7102 /* RoostFarmDefense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B627E32EBB70ED00DF7102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72B627EA2EBB70ED00DF7102 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72B627E62EBB70ED00DF7102 /* Build configuration list for PBXProject "RoostFarmDefense" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B627E22EBB70ED00DF7102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72B627EC2EBB70ED00DF7102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B627EA2EBB70ED00DF7102 /* RoostFarmDefense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B627E92EBB70ED00DF7102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B627FD2EBB70FE00DF7102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FFF5D5A72C5784BFA98E2DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoostFarmDefense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B627E72EBB70ED00DF7102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B627FE2EBB70FE00DF7102 /* RoostFarmDefenseApp.swift in Sources */,
+				72B628092EBB711C00DF7102 /* View+Extensions.swift in Sources */,
+				72B6280A2EBB711C00DF7102 /* Color+Extensions.swift in Sources */,
+				72B6280B2EBB711C00DF7102 /* RFLaunchView.swift in Sources */,
+				72B6280C2EBB711C00DF7102 /* RFHomeWebView.swift in Sources */,
+				72B6280D2EBB711C00DF7102 /* ShapeStyle+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72B627F52EBB70EF00DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B627F62EBB70EF00DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72B627F82EBB70EF00DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0395402A2842DABB41AEC90 /* Pods-RoostFarmDefense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoostFarmDefense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Roost Farm Defense";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roostfarm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72B627F92EBB70EF00DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7075BAD21D023984F9BD1C73 /* Pods-RoostFarmDefense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoostFarmDefense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Roost Farm Defense";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roostfarm.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B627E62EBB70ED00DF7102 /* Build configuration list for PBXProject "RoostFarmDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627F52EBB70EF00DF7102 /* Debug */,
+				72B627F62EBB70EF00DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B627F72EBB70EF00DF7102 /* Build configuration list for PBXNativeTarget "RoostFarmDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627F82EBB70EF00DF7102 /* Debug */,
+				72B627F92EBB70EF00DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B627E32EBB70ED00DF7102 /* Project object */;
+}
