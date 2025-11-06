@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: cocoapi
+      app_store_connect: farmdef
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.fomicproj.app
+        bundle_identifier: com.roostfarm.app
       vars:
-        BUNDLE_ID: "com.fomicproj.app"
-        XCODE_WORKSPACE: "CocoIsland.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "CocoIsland" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6754566785
+        BUNDLE_ID: "com.roostfarm.app"
+        XCODE_WORKSPACE: "RoostFarmDefense.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "RoostFarmDefense" # <-- Put the name of your Xcode scheme here
+        APP_STORE_APPLE_ID: 6754911979
       xcode: latest
       cocoapods: default
     scripts:
