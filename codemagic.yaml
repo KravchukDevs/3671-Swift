@@ -4,13 +4,13 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: farmdef
+      app_store_connect: colourfulstriketeam
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.roostfarm.app
+        bundle_identifier: com.colourfulstriketeam.app
       vars:
-        BUNDLE_ID: "com.roostfarm.app"
+        BUNDLE_ID: "com.colourfulstriketeam.app"
         XCODE_WORKSPACE: "RoostFarmDefense.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "RoostFarmDefense" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6754911979
